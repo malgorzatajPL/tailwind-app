@@ -48,7 +48,7 @@ const PricingCards: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-4">
+    <div className="flex flex-wrap justify-center gap-6 p-4 pb-20">
       {cards.map((card, index) => (
         <Card
           key={index}
